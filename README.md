@@ -1,9 +1,8 @@
-# CNMatrix [![.github/workflows/cmake.yml](https://github.com/cntools/cnmatrix/actions/workflows/cmake.yml/badge.svg)](https://github.com/cntools/cnmatrix/actions/workflows/cmake.yml)
+# CNMatrix (Archived)
 
-This library provides a consistent C interface to a few matrix backends.
+This repository has been **archived**. The functionality of **cnmatrix** has been integrated into **libsurvive**, and all further development will continue there.
 
-The interface itself is a little more sane than raw lapack / blas calls, and is meant to be reasonably performant for medium to large matrices. It should also be cross platform and work reasonably well on embedded low latency systems; as it consistently tries to avoid heap allocations.
+If you are looking to use or contribute to this project, please refer to the **libsurvive** repository, under the libs sub-folder here:
+🔗 [https://github.com/collabora/libsurvive/tree/master/libs/cnmatrix](https://github.com/collabora/libsurvive/tree/master/libs/cnmatrix)
 
-As a caveat though; this library makes sense for C code bases, for C++ codebases it likely makes more sense to just use eigen directly.
-
-
+We appreciate your support and contributions!
